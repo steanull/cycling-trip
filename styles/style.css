@@ -137,6 +137,7 @@
 .header__wrapper {
   display: flex;
   flex-direction: row;
+  min-height: 836px;
 }
 
 .header__background {
@@ -160,6 +161,71 @@
 }
 .header__link:hover {
   opacity: 0.75;
+}
+
+.content {
+  width: 1440px;
+}
+
+.page__content {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.merks {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.page__merks {
+  padding: 120px 0 60px;
+}
+
+.merks__image {
+  max-width: 650px;
+  width: 100%;
+  min-height: 460px;
+}
+
+.merks__inner {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.merks__quote {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  max-width: 470px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.merks__author {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #151515;
+  margin: auto 0 0;
+  padding: 0;
+}
+
+.merks__description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  margin: 6px 0 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
