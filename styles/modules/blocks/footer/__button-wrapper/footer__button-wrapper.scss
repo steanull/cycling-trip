@@ -1,0 +1,14 @@
+.footer__button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url("../../../../../images/footer-button-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 137px;
+  width: 100%;
+  min-height: 24px;
+}

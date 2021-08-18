@@ -1,0 +1,13 @@
+.trainings__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(21, 21, 21, 1);
+  transition: .4s;
+  &:hover {
+    color: rgba(21, 21, 21, .75);
+  }
+}
+

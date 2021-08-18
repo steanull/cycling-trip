@@ -12,7 +12,7 @@
       <ul class="header__list">
         <li class="header__item"><a href="" class="header__link">Покрытия и градиенты</a></li>
         <li class="header__item"><a href="" class="header__link">Велосипеды</a></li>
-        <li class="header__item"><a href="" class="header__link">Тренировки</a></li>
+        <li class="header__item"><a href="#trainings" class="header__link">Тренировки</a></li>
       </ul>
     </nav>
     <section class="header__wrapper">
@@ -20,7 +20,7 @@
         <h1 class="header__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
         <p class="header__description">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
           маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
-        <button class="header__button">Подробнее</button>
+        <button class="header__button"><p class="header__text-button">Подробнее</p></button>
         <p class="header__text">Cannondale Systemsix</p>
       </div>
       <div class="header__background">
@@ -37,6 +37,40 @@
         <p class="merks__description">Велогонщик</p>
       </div>
     </section>
+    <section class="trainings page__trainings">
+      <div class="trainings__inner">
+        <h2 class="trainings__title">Тренировки</h2>
+        <p class="trainings__description">
+          Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
+          записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
+          план.
+        </p>
+        <nav class="trainings__menu" id="trainings">
+          <ul class="trainings__list">
+            <li class="trainings__item"><a href="https://www.strava.com" target="_blank"
+                                           class="trainings__link">Strava</a></li>
+            <li class="trainings__item"><a href="https://www.komoot.com" target="_blank"
+                                           class="trainings__link">Komoot</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img src="images/trainings.jpg" alt="Тренировки" class="trainings__image">
+    </section>
   </main>
+  <footer class="footer">
+    <section class="footer__wrapper">
+      <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+      <form name="footer-form" class="footer__form">
+        <input name="footer-email" type="email" class="footer__email" placeholder="Ваш e-mail" required>
+        <button class="footer__submit" type="submit">ок</button>
+      </form>
+      <div class="footer__inner">
+        <p class="footer__copyright">© Road Club 2021</p>
+        <div class="footer__button-wrapper">
+          <button class="footer__button"></button>
+        </div>
+      </div>
+    </section>
+  </footer>
 </body>
 </html>
