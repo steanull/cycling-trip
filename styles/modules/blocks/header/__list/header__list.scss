@@ -1,8 +1,10 @@
 .header__list {
   list-style: none;
   padding: 0;
-  margin:0;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  max-width: 1440px - 240px;
+  width: 100%;
 }

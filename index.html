@@ -10,8 +10,8 @@
   <header class="header page__header">
     <nav class="header__menu">
       <ul class="header__list">
-        <li class="header__item"><a href="" class="header__link">Покрытия и градиенты</a></li>
-        <li class="header__item"><a href="" class="header__link">Велосипеды</a></li>
+        <li class="header__item"><a href="#coverage" class="header__link">Покрытия и градиенты</a></li>
+        <li class="header__item"><a href="#" class="header__link">Велосипеды</a></li>
         <li class="header__item"><a href="#trainings" class="header__link">Тренировки</a></li>
       </ul>
     </nav>
@@ -37,7 +37,45 @@
         <p class="merks__description">Велогонщик</p>
       </div>
     </section>
-    <section class="trainings page__trainings">
+    <section class="coverage page__coverage" id="coverage">
+      <h1 class="coverage__title">Шоссе</h1>
+      <p class="coverage__description">
+        На&nbsp;шоссейном велосипеде можно ездить по&nbsp;асфальту на&nbsp;разных градиентах: будь&nbsp;то горы или
+        равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно и&nbsp;самостоятельно.
+      </p>
+      <div class="coverage__images-wrapper">
+        <img src="images/slider-image-1.jpg" alt="Шоссе" class="coverage__image">
+        <img src="images/slider-image-2.jpg" alt="Шоссе" class="coverage__image">
+        <div class="coverage__icon"></div>
+      </div>
+      <div class="coverage__buttons-wrapper">
+        <button class="coverage__slider-button"></button>
+        <button class="coverage__slider-button"></button>
+      </div>
+    </section>
+    <section class="bicycles page__bicycles">
+      <h2 class="bicycles__title">Велосипеды</h2>
+      <ul class="bicycles__menu">
+        <li class="bicycles__menu-item"><a href="#" class="bicycles__link">Шоссе</a></li>
+        <li class="bicycles__menu-item"><a href="#" class="bicycles__link">Грэвел</a></li>
+        <li class="bicycles__menu-item"><a href="#" class="bicycles__link">ТТ</a></li>
+      </ul>
+      <ul class="bicycles__card">
+        <li class="bicycles__item">
+          <div class="bicycles__image-wrapper"><img src="images/cervelo-caledonia-5.jpg" alt="Cervelo Caledonia-5" class="bicycles__image"></div>
+          <p class="bicycles__desc">Cervelo Caledonia-5</p>
+        </li>
+        <li class="bicycles__item">
+          <div class="bicycles__image-wrapper"><img src="images/cervelo-caledonia-5.jpg" alt="Cervelo Caledonia-5" class="bicycles__image"></div>
+          <p class="bicycles__desc">Cervelo Caledonia-5</p>
+        </li>
+        <li class="bicycles__item">
+          <div class="bicycles__image-wrapper"><img src="images/cervelo-caledonia-5.jpg" alt="Cervelo Caledonia-5" class="bicycles__image"></div>
+          <p class="bicycles__desc">Cervelo Caledonia-5</p>
+        </li>
+      </ul>
+    </section>
+    <section class="trainings page__trainings" id="trainings">
       <div class="trainings__inner">
         <h2 class="trainings__title">Тренировки</h2>
         <p class="trainings__description">
@@ -45,7 +83,7 @@
           записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
           план.
         </p>
-        <nav class="trainings__menu" id="trainings">
+        <nav class="trainings__menu">
           <ul class="trainings__list">
             <li class="trainings__item"><a href="https://www.strava.com" target="_blank"
                                            class="trainings__link">Strava</a></li>
