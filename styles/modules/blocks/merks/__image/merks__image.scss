@@ -3,5 +3,18 @@
   width: 100%;
   min-height: 460px;
   object-fit: cover;
-  object-position: top left;
+  object-position: top right;
+}
+
+@media screen and (max-width: 1279px) {
+  .merks__image {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merks__image {
+    max-width: 100%;
+    min-width: auto;
+  }
 }

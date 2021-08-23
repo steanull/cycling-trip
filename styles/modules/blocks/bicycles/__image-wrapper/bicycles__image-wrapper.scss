@@ -13,3 +13,16 @@
   align-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .bicycles__image-wrapper {
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bicycles__image-wrapper {
+    min-height: 284px;
+    filter: none;
+  }
+}

@@ -18,3 +18,12 @@
     opacity: 0.75;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .coverage__slider-button {
+    max-width: 24px;
+    min-height: 24px;
+    background-size: 5px;
+    margin: 0 0 0 10px;
+  }
+}

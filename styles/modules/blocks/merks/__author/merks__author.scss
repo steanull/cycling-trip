@@ -7,3 +7,17 @@
   margin: auto 0 0;
   padding:0;
 }
+
+@media screen and (max-width: 1279px) {
+  .merks__author {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merks__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

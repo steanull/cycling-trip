@@ -12,3 +12,12 @@
   width: 100%;
   min-height: 24px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__button-wrapper {
+    background-image: url("../../../../../images/change-color.svg");
+    max-width: 38px;
+    min-height: 38px;
+    cursor: pointer;
+  }
+}

@@ -2,6 +2,24 @@
   font-weight: 900;
   font-size: 55px;
   line-height: 60px;
+  font-style: normal;
+  letter-spacing: -0.5px;
+  color: #151515;
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__title {
+    font-size: 44px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+

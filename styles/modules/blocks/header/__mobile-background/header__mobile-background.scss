@@ -1,0 +1,18 @@
+.header__mobile-background {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__mobile-background {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 348px;
+    max-width: 254px;
+    position: relative;
+    background-image: url("../../../../../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 40px 0 0 50px;
+  }
+}

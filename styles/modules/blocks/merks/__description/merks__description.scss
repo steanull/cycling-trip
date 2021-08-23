@@ -7,3 +7,17 @@
   margin: 6px 0 0;
   padding:0;
 }
+
+@media screen and (max-width: 1279px) {
+  .merks__description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merks__description {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

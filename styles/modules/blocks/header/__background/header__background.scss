@@ -11,3 +11,22 @@
   flex-direction: column;
   justify-content: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__background {
+    min-height: 650px;
+    max-width: 370px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__background {
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__background {
+    display: none;
+  }
+}

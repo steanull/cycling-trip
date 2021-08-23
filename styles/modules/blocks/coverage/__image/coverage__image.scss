@@ -5,3 +5,18 @@
   object-fit: cover;
   position: relative;
 }
+
+@media screen and (max-width: 1279px) {
+  .coverage__image {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .coverage__image {
+    height: 175px;
+    &:last-of-type {
+      display: none;
+    }
+  }
+}
