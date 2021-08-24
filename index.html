@@ -11,7 +11,7 @@
     <nav class="header__menu">
       <ul class="header__list">
         <li class="header__item"><a href="#coverage" class="header__link">Покрытия и градиенты</a></li>
-        <li class="header__item"><a href="#" class="header__link">Велосипеды</a></li>
+        <li class="header__item"><a href="#bicycles" class="header__link">Велосипеды</a></li>
         <li class="header__item"><a href="#trainings" class="header__link">Тренировки</a></li>
       </ul>
     </nav>
@@ -25,7 +25,9 @@
         </div>
         <p class="header__description">Триатлонные старты, горные серпантины или грейвел заезды по&nbsp;живописным
           маршрутам&nbsp;&mdash; нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.</p>
-        <button class="header__button"><p class="header__text-button">Подробнее</p></button>
+        <a href="#coverage">
+          <button class="header__button"><p class="header__text-button">Подробнее</p></button>
+        </a>
         <p class="header__text">Cannondale Systemsix</p>
       </div>
       <div class="header__background">
@@ -58,7 +60,7 @@
         <button class="coverage__slider-button"></button>
       </div>
     </section>
-    <section class="bicycles page__bicycles">
+    <section class="bicycles page__bicycles" id="bicycles">
       <h2 class="bicycles__title">Велосипеды</h2>
       <ul class="bicycles__menu">
         <li class="bicycles__menu-item"><a href="#" class="bicycles__link">Шоссе</a></li>
@@ -84,21 +86,21 @@
       </ul>
     </section>
     <section class="trainings page__trainings" id="trainings">
-        <h2 class="trainings__title">Тренировки</h2>
-        <p class="trainings__description">
-          Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
-          записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
-          план.
-        </p>
-        <nav class="trainings__menu">
-          <ul class="trainings__list">
-            <li class="trainings__item"><a href="https://www.strava.com" target="_blank"
-                                           class="trainings__link">Strava</a></li>
-            <li class="trainings__item"><a href="https://www.komoot.com" target="_blank"
-                                           class="trainings__link">Komoot</a></li>
-          </ul>
-        </nav>
-        <img src="images/trainings.jpg" alt="Тренировки" class="trainings__image">
+      <h2 class="trainings__title">Тренировки</h2>
+      <p class="trainings__description">
+        Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
+        записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный
+        план.
+      </p>
+      <nav class="trainings__menu">
+        <ul class="trainings__list">
+          <li class="trainings__item"><a href="https://www.strava.com" target="_blank"
+                                         class="trainings__link">Strava</a></li>
+          <li class="trainings__item"><a href="https://www.komoot.com" target="_blank"
+                                         class="trainings__link">Komoot</a></li>
+        </ul>
+      </nav>
+      <img src="images/trainings.jpg" alt="Тренировки" class="trainings__image">
     </section>
   </main>
   <footer class="footer">
@@ -116,5 +118,6 @@
       </div>
     </section>
   </footer>
+  <script src="scripts/theme-dark.js"></script>
 </body>
 </html>
