@@ -9,11 +9,18 @@
 <body class="page">
   <header class="header page__header">
     <nav class="header__menu">
-      <ul class="header__list">
-        <li class="header__item"><a href="#coverage" class="header__link">Покрытия и градиенты</a></li>
-        <li class="header__item"><a href="#bicycles" class="header__link">Велосипеды</a></li>
-        <li class="header__item"><a href="#trainings" class="header__link">Тренировки</a></li>
-      </ul>
+      <div class="header__menu-wrapper">
+        <button class="header__close-button"></button>
+        <ul class="header__list">
+          <li class="header__item"><a href="#coverage" class="header__link">Покрытия и градиенты</a></li>
+          <li class="header__item"><a href="#bicycles" class="header__link">Велосипеды</a></li>
+          <li class="header__item"><a href="#trainings" class="header__link">Тренировки</a></li>
+        </ul>
+        <div class="header__button-wrapper">
+          <button class="header__theme-button"></button>
+        </div>
+      </div>
+      <button class="header__menu-button"></button>
     </nav>
     <section class="header__wrapper">
       <div class="header__inner">
@@ -119,5 +126,6 @@
     </section>
   </footer>
   <script src="scripts/theme-dark.js"></script>
+  <script src="scripts/mobile-menu.js"></script>
 </body>
 </html>

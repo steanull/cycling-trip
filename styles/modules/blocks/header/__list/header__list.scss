@@ -17,6 +17,10 @@
 
 @media screen and (max-width: 767px) {
   .header__list {
-    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 144px;
   }
 }

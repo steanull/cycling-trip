@@ -13,10 +13,18 @@
 @import './modules/blocks/header/__description/_theme-dark/header__description_theme-dark.scss';
 @import './modules/blocks/header/__image/header__image.scss';
 @import './modules/blocks/header/__inner/header__inner.scss';
+@import './modules/blocks/header/__menu-button/header__menu-button.scss';
+@import './modules/blocks/header/__menu-button/_dark-theme/header__menu-button_dark-theme.scss';
 @import './modules/blocks/header/__item/header__item.scss';
 @import './modules/blocks/header/__list/header__list.scss';
 @import './modules/blocks/header/__menu/header__menu.scss';
+@import './modules/blocks/header/__close-button/header__close-button.scss';
+@import './modules/blocks/header/__close-button/_theme-dark/header__close-button_theme-dark.scss';
+@import './modules/blocks/header/__menu-wrapper/header__menu-wrapper.scss';
+@import './modules/blocks/header/__menu-wrapper/_dark-theme/header__menu-wrapper_dark-theme.scss';
+@import './modules/blocks/header/__menu-wrapper/_opened/header__menu-wrapper_opened.scss';
 @import './modules/blocks/header/__text-button/header__text-button.scss';
+@import './modules/blocks/header/__menu/_theme-dark/header__menu_theme-dark.scss';
 @import './modules/blocks/header/__text/header__text.scss';
 @import './modules/blocks/header/__text/_theme-dark/header__text_theme-dark.scss';
 @import './modules/blocks/header/__title/header__title.scss';
@@ -28,6 +36,10 @@
 @import './modules/blocks/header/__mobile-background/header__mobile-background.scss';
 @import './modules/blocks/header/__mobile-image/header__mobile-image.scss';
 @import './modules/blocks/header/__mobile-wrapper/header__mobile-wrapper.scss';
+@import './modules/blocks/header/__theme-button/header__theme-button.scss';
+@import 'modules/blocks/header/__theme-button/_theme-dark/header__theme-button_theme-dark';
+@import './modules/blocks/header/__button-wrapper/header__button-wrapper.scss';
+@import './modules/blocks/header/__button-wrapper/_theme-dark/header__button-wrapper_theme-dark.scss';
 
 /* MERKS */
 @import './modules/blocks/merks/merks.scss';

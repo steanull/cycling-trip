@@ -21,6 +21,10 @@ const trainingsDescription = document.querySelector(".trainings__description");
 const trainingsLink = document.querySelectorAll(".trainings__link");
 const footerEmail = document.querySelector(".footer__email");
 const footerSubmit = document.querySelector(".footer__submit");
+const headerMenuWrapper = document.querySelector(".header__menu-wrapper");
+const headerBtnDark = document.querySelector(".header__theme-button");
+const headerCloseBtnDark = document.querySelector(".header__close-button");
+const headerMenuBtnDark = document.querySelector(".header__menu-button");
 
 function applyTheme() {
   document.body.classList.toggle(`page_theme-dark`);
@@ -57,7 +61,15 @@ function applyTheme() {
   });
   footerSubmit.classList.toggle(`footer__submit_theme-dark`);
   footerEmail.classList.toggle(`footer__email_theme-dark`);
+  headerMenuWrapper.classList.toggle(`header__menu-wrapper_dark-theme`);
+  headerBtnDark.classList.toggle(`header__theme-button_theme-dark`);
+  headerCloseBtnDark.classList.toggle(`header__close-button_theme-dark`);
+  headerMenuBtnDark.classList.toggle(`header__menu-button_dark-theme`);
 }
-  document.querySelector(".footer__button").addEventListener("click", function() {
-    applyTheme();
-  });
+
+document.querySelector(".footer__button").addEventListener("click", function () {
+  applyTheme();
+});
+document.querySelector(".header__theme-button").addEventListener("click", function () {
+  applyTheme();
+});
