@@ -10,8 +10,6 @@ const headerText = document.querySelector(".header__text");
 const merksQuote = document.querySelector(".merks__quote");
 const merksAuthor = document.querySelector(".merks__author");
 const merksDescription = document.querySelector(".merks__description");
-const coverageTitle = document.querySelector(".coverage__title");
-const coverageDescription = document.querySelector(".coverage__description");
 const coverageSliderBtn = document.querySelectorAll(".coverage__slider-button");
 const bicyclesTitle = document.querySelector(".bicycles__title");
 const bicyclesDesc = document.querySelectorAll(".bicycles__desc");
@@ -25,7 +23,10 @@ const headerMenuWrapper = document.querySelector(".header__menu-wrapper");
 const headerBtnDark = document.querySelector(".header__theme-button");
 const headerCloseBtnDark = document.querySelector(".header__close-button");
 const headerMenuBtnDark = document.querySelector(".header__menu-button");
+const coverageTitle = document.querySelectorAll(".coverage__title");
+const coverageDescription = document.querySelectorAll(".coverage__description");
 
+//Функция добавления или удаление класса темной темы в зависимости от состояния
 function applyTheme() {
   document.body.classList.toggle(`page_theme-dark`);
   headerDark.classList.toggle(`header__menu_theme-dark`);
@@ -42,8 +43,6 @@ function applyTheme() {
   merksQuote.classList.toggle(`merks__quote_theme-dark`);
   merksAuthor.classList.toggle(`merks__author_theme-dark`);
   merksDescription.classList.toggle(`merks__description_theme-dark`);
-  coverageTitle.classList.toggle(`coverage__title_theme-dark`);
-  coverageDescription.classList.toggle(`coverage__description_theme-dark`);
   coverageSliderBtn.forEach((item) => {
     item.classList.toggle(`coverage__slider-button_theme-dark`);
   });
@@ -65,8 +64,16 @@ function applyTheme() {
   headerBtnDark.classList.toggle(`header__theme-button_theme-dark`);
   headerCloseBtnDark.classList.toggle(`header__close-button_theme-dark`);
   headerMenuBtnDark.classList.toggle(`header__menu-button_dark-theme`);
+
+  coverageDescription.forEach((item) => {
+    item.classList.toggle(`coverage__description_theme-dark`);
+  });
+  coverageTitle.forEach((item) => {
+    item.classList.toggle(`coverage__title_theme-dark`);
+  });
 }
 
+//Слушатели нажатия кнопок переключения темы
 document.querySelector(".footer__button").addEventListener("click", function () {
   applyTheme();
 });

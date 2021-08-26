@@ -1,0 +1,19 @@
+.slider__indicators {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .slider__indicators {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin: 0 15%;
+    list-style: none;
+    user-select: none;
+  }
+}

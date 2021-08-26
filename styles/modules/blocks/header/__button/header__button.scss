@@ -12,6 +12,9 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  display: block;
+  text-align: center;
+  text-decoration: none;
   &:before{
     content: '';
     position: absolute;
