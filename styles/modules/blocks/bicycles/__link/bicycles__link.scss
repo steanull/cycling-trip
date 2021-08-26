@@ -10,8 +10,11 @@
   opacity: 0.7;
   transition: .4s;
   cursor: pointer;
+  margin:0;
+  padding:0;
   &:hover {
     color: #151515;
     opacity: 0.75;
+    font-weight: 600;
   }
 }

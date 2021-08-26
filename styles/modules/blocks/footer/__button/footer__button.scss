@@ -3,8 +3,11 @@
   border: 0;
   max-width: 44px;
   width: 100%;
-  min-height: 24px;
+  min-height: 30px;
   cursor: pointer;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
