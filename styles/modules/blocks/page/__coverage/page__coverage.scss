@@ -1,0 +1,16 @@
+.page__coverage {
+  padding: 60px 0 60px 120px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__coverage {
+    padding: 60px 0 60px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__coverage {
+    padding: 20px 0 0;
+    margin: 40px auto 80px;
+  }
+}

@@ -1,0 +1,26 @@
+.merks {
+  display: grid;
+  justify-content: right;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
+  max-width: 1440px;
+  width: 100%;
+  gap: 0 80px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .merks {
+    gap: 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merks {
+    border-top: 1px solid #E3E3E3;
+    justify-content: center;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    max-width: 284px;
+  }
+}

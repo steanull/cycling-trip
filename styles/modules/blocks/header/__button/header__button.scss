@@ -1,9 +1,8 @@
 .header__button {
-  max-width: 180px;
-  width: 100%;
+  width: 180px;
   min-height: 50px;
   border: 0;
-  background: #24B47E;
+  background-color: #24B47E;
   border-radius: 4px;
   font-weight: 600;
   font-size: 14px;
@@ -11,7 +10,33 @@
   color: #ffffff;
   letter-spacing: 1px;
   cursor: pointer;
-  &:hover {
-    background: #319E75;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-decoration: none;
+  &:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(49, 158, 117, 1) 0%,rgba(49, 158, 117, 1) 50%,rgba(36, 180, 126, 1) 50%,rgba(36, 180, 126, 1) 100%);
+    transition: left .7s;
+  }
+  &:hover:before {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button {
+    width: 100%;
+    min-height: 46px;
+    font-size: 13px;
+    line-height: 19px;
   }
 }

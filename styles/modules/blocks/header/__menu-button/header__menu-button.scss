@@ -1,0 +1,19 @@
+.header__menu-button {
+  background-image: url("../../../../../images/menu-button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: 22px;
+  width: 100%;
+  min-height: 22px;
+  cursor: pointer;
+  border: 0;
+  display: none;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-button {
+    display: block;
+  }
+}

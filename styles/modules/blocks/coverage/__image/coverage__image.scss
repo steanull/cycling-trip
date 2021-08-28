@@ -1,0 +1,22 @@
+.coverage__image {
+  max-width: 650px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .coverage__image {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .coverage__image {
+    height: 175px;
+    &:last-of-type {
+      display: none;
+    }
+  }
+}

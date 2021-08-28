@@ -1,8 +1,20 @@
 .page {
   margin: 0;
   padding: 0;
-  min-width: 320px;
+  min-width: 300px;
   width: 100%;
-  background-color: $grey;
   font-family: 'Inter', Arial, sans-serif;
+  background-color: var(--light-background-color);
+}
+
+:root {
+  --light-background-color: #F4F4F4;
+  --dark-background-secondary-color: #434343;
+  --dark-background-color: #333333;
+  --dark-color-main: #FFFFFF;
+  --dark-background-footer: #2F2F2F;
+  --light-background-footer: #EFEFEF;
+  --color-main: #000000;
+  --color-secondary: #E5E5E5;
+  --color-third: #151515;
 }

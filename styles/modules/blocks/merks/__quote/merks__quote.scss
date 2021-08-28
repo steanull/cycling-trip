@@ -1,0 +1,27 @@
+.merks__quote {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  max-width: 470px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .merks__quote {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .merks__quote {
+    font-size: 23px;
+    line-height: 29px;
+    margin: 40px auto;
+  }
+}

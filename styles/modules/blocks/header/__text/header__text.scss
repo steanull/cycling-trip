@@ -1,11 +1,11 @@
 .header__text {
-  margin-top: 167px;
+  margin-top: 169px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 18px;
   color: #151515;
-  max-width: 350px;
+  max-width: 356px;
   width: 100%;
   position: relative;
   &::after {
@@ -17,6 +17,25 @@
     width: 100%;
     position: absolute;
     top: 50%;
+    margin-top: -1px;
     right: 0;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__text {
+    font-size: 16px;
+    line-height: 16px;
+    max-width: 300px;
+
+    &::after {
+      max-width: 102px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__text {
+    display: none;
   }
 }

@@ -1,0 +1,19 @@
+.coverage__icon {
+  background-image: url("../../../../../images/coverage-pulse.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100px;
+  width: 100%;
+  min-height: 40px;
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .coverage__icon {
+    max-width: 70px;
+    width: 100%;
+    min-height: 28px;
+  }
+}
