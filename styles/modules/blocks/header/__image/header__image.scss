@@ -8,23 +8,4 @@
   filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
   border-radius: 20px;
   box-sizing: border-box;
-  position: sticky;
-  top: 466px;
-  margin-bottom: 80px;
-}
-
-@media screen and (max-width: 1279px) {
-  .header__image {
-    margin-left: -150px;
-    min-height: 252px;
-    max-width: 370px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header__image {
-    max-width: 310px;
-    min-height: 211px;
-    margin-left: -100px;
-  }
 }

@@ -1,8 +1,8 @@
 .header__link {
   text-decoration: none;
-  color: rgba(34, 34, 34, 1);
-  transition: .4s;
+  color: $text-theme-white;
+  transition: .2s;
   &:hover {
-    color: rgba(34, 34, 34, .75);
+    opacity: 0.75;
   }
 }

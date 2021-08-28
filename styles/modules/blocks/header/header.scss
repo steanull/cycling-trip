@@ -1,11 +1,3 @@
 .header {
-  max-width: 1440px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    max-width: 284px;
-  }
+  width: 1440px;
 }

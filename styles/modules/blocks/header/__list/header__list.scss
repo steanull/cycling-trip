@@ -1,26 +1,8 @@
 .header__list {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin:0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  max-width: 1440px - 240px;
-  width: 100%;
-}
-
-@media screen and (max-width: 1279px) {
-  .header__list {
-    max-width: 750px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__list {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-top: 144px;
-  }
 }

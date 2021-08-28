@@ -2,129 +2,18 @@
 @import './modules/variables.scss';
 @import './modules/mixins.scss';
 @import './modules/blocks/root/root.scss';
-@import './modules/blocks/content/content.scss';
-@import './modules/blocks/page/__content/page__content.scss';
-
-/* HEADER */
+@import './modules/blocks/page/page.scss';
 @import 'modules/blocks/page/__header/page__header';
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/header/__button/header__button.scss';
 @import './modules/blocks/header/__description/header__description.scss';
-@import './modules/blocks/header/__description/_theme-dark/header__description_theme-dark.scss';
 @import './modules/blocks/header/__image/header__image.scss';
 @import './modules/blocks/header/__inner/header__inner.scss';
-@import './modules/blocks/header/__menu-button/header__menu-button.scss';
-@import './modules/blocks/header/__menu-button/_dark-theme/header__menu-button_dark-theme.scss';
 @import './modules/blocks/header/__item/header__item.scss';
 @import './modules/blocks/header/__list/header__list.scss';
 @import './modules/blocks/header/__menu/header__menu.scss';
-@import './modules/blocks/header/__close-button/header__close-button.scss';
-@import './modules/blocks/header/__close-button/_theme-dark/header__close-button_theme-dark.scss';
-@import './modules/blocks/header/__menu-wrapper/header__menu-wrapper.scss';
-@import './modules/blocks/header/__menu-wrapper/_dark-theme/header__menu-wrapper_dark-theme.scss';
-@import './modules/blocks/header/__menu-wrapper/_opened/header__menu-wrapper_opened.scss';
-@import './modules/blocks/header/__text-button/header__text-button.scss';
-@import './modules/blocks/header/__menu/_theme-dark/header__menu_theme-dark.scss';
 @import './modules/blocks/header/__text/header__text.scss';
-@import './modules/blocks/header/__text/_theme-dark/header__text_theme-dark.scss';
 @import './modules/blocks/header/__title/header__title.scss';
-@import './modules/blocks/header/__title/_theme-dark/header__title_theme-dark.scss';
 @import './modules/blocks/header/__wrapper/header__wrapper.scss';
 @import './modules/blocks/header/__background/header__background.scss';
 @import './modules/blocks/header/__link/header__link.scss';
-@import './modules/blocks/header/__link/_theme-dark/header__link_theme-dark.scss';
-@import './modules/blocks/header/__mobile-background/header__mobile-background.scss';
-@import './modules/blocks/header/__mobile-image/header__mobile-image.scss';
-@import './modules/blocks/header/__mobile-wrapper/header__mobile-wrapper.scss';
-@import './modules/blocks/header/__theme-button/header__theme-button.scss';
-@import 'modules/blocks/header/__theme-button/_theme-dark/header__theme-button_theme-dark';
-@import './modules/blocks/header/__button-wrapper/header__button-wrapper.scss';
-@import './modules/blocks/header/__button-wrapper/_theme-dark/header__button-wrapper_theme-dark.scss';
-
-/* MERKS */
-@import './modules/blocks/merks/merks.scss';
-@import './modules/blocks/page/__merks/page__merks.scss';
-@import './modules/blocks/merks/__image/merks__image.scss';
-@import './modules/blocks/merks/__inner/merks__inner.scss';
-@import './modules/blocks/merks/__quote/merks__quote.scss';
-@import './modules/blocks/merks/__quote/_theme-dark/merks__quote_theme-dark.scss';
-@import './modules/blocks/merks/__author/merks__author.scss';
-@import './modules/blocks/merks/__author/_theme-dark/merks__author_theme-dark.scss';
-@import './modules/blocks/merks/__description/merks__description.scss';
-@import './modules/blocks/merks/__description/_theme-dark/merks__description_theme-dark.scss';
-
-/* COVERAGE */
-@import './modules/blocks/page/__coverage/page__coverage.scss';
-@import './modules/blocks/coverage/coverage.scss';
-@import './modules/blocks/coverage/_active/coverage_active.scss';
-@import './modules/blocks/coverage/__title/coverage__title.scss';
-@import './modules/blocks/coverage/__title/_theme-dark/coverage__title_theme-dark.scss';
-@import './modules/blocks/coverage/__description/coverage__description.scss';
-@import './modules/blocks/coverage/__description/_theme-dark/coverage__description_theme-dark.scss';
-@import './modules/blocks/coverage/__image/coverage__image.scss';
-@import './modules/blocks/coverage/__images-wrapper/coverage__images-wrapper.scss';
-@import './modules/blocks/coverage/__slider-button/coverage__slider-button.scss';
-@import './modules/blocks/coverage/__slider-button/_theme-dark/coverage__slider-button_theme-dark.scss';
-@import './modules/blocks/coverage/__buttons-wrapper/coverage__buttons-wrapper.scss';
-@import './modules/blocks/coverage/__icon/coverage__icon.scss';
-
-/* BICYCLES */
-@import './modules/blocks/page/__bicycles/page__bicycles.scss';
-@import './modules/blocks/bicycles/bicycles.scss';
-@import './modules/blocks/bicycles/__image/bicycles__image.scss';
-@import './modules/blocks/bicycles/__title/bicycles__title.scss';
-@import './modules/blocks/bicycles/__title/_theme-dark/bicycles__title_theme-dark.scss';
-@import './modules/blocks/bicycles/__link/bicycles__link.scss';
-@import './modules/blocks/bicycles/__link/_theme-dark/bicycle__link_theme-dark.scss';
-@import 'modules/blocks/bicycles/__link/_active/bicycles__link_active';
-@import './modules/blocks/bicycles/__menu/bicycles__menu.scss';
-@import './modules/blocks/bicycles/__desc/bicycles__desc.scss';
-@import './modules/blocks/bicycles/__desc/_theme-dark/bicycles__desc_theme-dark.scss';
-@import './modules/blocks/bicycles/__menu-item/bicycles__menu-item.scss';
-@import './modules/blocks/bicycles/__card/bicycles__card.scss';
-@import './modules/blocks/bicycles/__image-wrapper/bicycles__image-wrapper.scss';
-@import './modules/blocks/bicycles/__item/bicycles__item.scss';
-
-/* TRAININGS */
-@import './modules/blocks/page/__trainings/page__trainings.scss';
-@import './modules/blocks/trainings/trainings.scss';
-@import './modules/blocks/trainings/__image/trainings__image.scss';
-@import './modules/blocks/trainings/__inner/trainings__inner.scss';
-@import './modules/blocks/trainings/__title/training__title.scss';
-@import './modules/blocks/trainings/__title/_theme-dark/trainings__title_theme-dark.scss';
-@import './modules/blocks/trainings/__description/trainings__description.scss';
-@import './modules/blocks/trainings/__description/_theme-dark/trainings__description_theme-dark.scss';
-@import './modules/blocks/trainings/__menu/trainings__menu.scss';
-@import './modules/blocks/trainings/__list/trainings__list.scss';
-@import './modules/blocks/trainings/__item/trainings__item.scss';
-@import './modules/blocks/trainings/__link/trainings__link.scss';
-@import './modules/blocks/trainings/__link/_theme-dark/trainings__link_theme-dark.scss';
-
-/* FOOTER */
-@import './modules/blocks/footer/footer.scss';
-@import './modules/blocks/footer/_theme-dark/footer_theme-dark.scss';
-@import './modules/blocks/footer/__title/footer__title.scss';
-@import './modules/blocks/footer/__title/_theme-dark/footer__title_theme-dark.scss';
-@import './modules/blocks/footer/__submit/footer__submit.scss';
-@import './modules/blocks/footer/__submit/_theme-dark/footer__submit_theme-dark.scss';
-@import './modules/blocks/footer/__wrapper/footer__wrapper.scss';
-@import './modules/blocks/footer/__form/footer__form.scss';
-@import './modules/blocks/footer/__email/footer__email.scss';
-@import './modules/blocks/footer/__email/_theme-dark/footer__email_theme-dark.scss';
-@import './modules/blocks/footer/__button-wrapper/footer__button-wrapper.scss';
-@import './modules/blocks/footer/__button-wrapper/_theme-dark/footer__button-wrapper_theme-dark.scss';
-@import './modules/blocks/footer/__button/footer__button.scss';
-@import './modules/blocks/footer/__button/_theme-dark/footer__button_theme-dark.scss';
-@import './modules/blocks/footer/__inner/footer__inner.scss';
-@import './modules/blocks/footer/__copyright/footer__copyright.scss';
-
-/* SLIDER */
-@import './modules/blocks/slider/slider.scss';
-@import './modules/blocks/slider/__indicator/slider__indicator.scss';
-@import './modules/blocks/slider/__indicator/_active/slider__indicator_active.scss';
-@import './modules/blocks/slider/__indicators/slider__indicators.scss';
-@import './modules/blocks/slider/__wrapper/slider__wrapper.scss';
-@import './modules/blocks/slider/_active/slider_active.scss';
-
-@import './modules/blocks/page/page.scss';
-@import './modules/blocks/page/_theme-dark/page_theme-dark.scss';

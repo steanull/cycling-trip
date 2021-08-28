@@ -1,16 +1,4 @@
 .page__header {
-  padding: 0 0 0 120px;
+  padding: 0;
   margin: 0 auto;
-}
-
-@media screen and (max-width: 1023px) {
-  .page__header {
-    padding: 0 0 0 40px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .page__header {
-    padding: 0 0 40px;
-  }
 }
