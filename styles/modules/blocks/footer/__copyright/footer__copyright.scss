@@ -1,0 +1,4 @@
+.footer__copyright {
+  @include font(500, 14px, 20px);
+  color: var(--color-fifth);
+}

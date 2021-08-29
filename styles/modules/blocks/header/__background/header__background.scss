@@ -1,0 +1,24 @@
+.header__background {
+  background-image: url("../images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  right: 0;
+  @include size(610px, 836px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(1279px) {
+    min-height: 650px;
+    max-width: 370px;
+  }
+
+  @include media(1023px) {
+    max-width: 310px;
+  }
+
+  @include media(767px) {
+    display: none;
+  }
+}

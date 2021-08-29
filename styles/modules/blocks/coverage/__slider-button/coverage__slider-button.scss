@@ -1,0 +1,25 @@
+.coverage__slider-button {
+  background-image: url("../images/slider-button.svg");
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  @include size(50px, 50px);
+  border-radius: 50%;
+  background-color: var(--light-background-third-color);
+  cursor: pointer;
+  transition: .2s;
+  &:last-of-type {
+    transform: rotate(180deg);
+  }
+  &:hover {
+    opacity: 0.75;
+  }
+
+  @include media(767px) {
+    max-width: 24px;
+    min-height: 24px;
+    background-size: 5px;
+    margin: 0 0 0 10px;
+  }
+}

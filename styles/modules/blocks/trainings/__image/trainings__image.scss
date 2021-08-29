@@ -1,0 +1,21 @@
+.trainings__image {
+  @include size(580px, 460px);
+  object-fit: cover;
+  object-position: top right;
+  grid-column: -1 / -2;
+  grid-row: 1 / 4;
+
+  @include media(1279px) {
+    min-width: 350px;
+  }
+
+  @include media(767px) {
+      min-width: 100px;
+      margin: 0 0 40px;
+      grid-column: inherit;
+      grid-row: inherit;
+      order: 1;
+      max-width: 284px;
+      min-height: 225px;
+  }
+}

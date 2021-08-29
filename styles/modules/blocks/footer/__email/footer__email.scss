@@ -1,0 +1,27 @@
+.footer__email {
+  background-color: transparent;
+  @include size(360px, 50px);
+  border: 1px solid rgba(199, 199, 199, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 11px 0 11px 20px;
+  color: rgba(21, 21, 21, .75);
+  @include font(500, 13px, 28px);
+  position: relative;
+  &:focus {
+    outline: none;
+    color: #151515;
+  }
+  &:hover {
+    color: #151515;
+  }
+  &:hover::placeholder {
+    color: #151515;
+  }
+  &:focus:last-child {
+    display: block;
+  }
+  &:last-child {
+    display: none;
+  }
+}

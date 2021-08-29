@@ -1,0 +1,13 @@
+.header__mobile-image {
+  left: -50px;
+  height: 160px;
+  max-width: 234px;
+  width: 100%;
+  padding: 10px 26px;
+  background: var(--light-background-color);
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: 150px;
+}

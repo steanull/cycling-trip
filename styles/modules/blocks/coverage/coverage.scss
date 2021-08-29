@@ -1,0 +1,14 @@
+.coverage {
+  box-sizing: border-box;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .coverage {
+    border-top: 1px solid #E3E3E3;
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    max-width: 284px;
+  }
+}

@@ -1,0 +1,18 @@
+.header__button-wrapper {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url("../images/footer-button-background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @include size(137px, 24px);
+  position: relative;
+  bottom: 36px;
+  display: none;
+
+  @include media(767px) {
+    display: flex;
+  }
+}

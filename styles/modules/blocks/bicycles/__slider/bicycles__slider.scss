@@ -1,0 +1,13 @@
+.bicycles__slider {
+  position: relative;
+  display: none;
+
+  @include media(767px) {
+    position: relative;
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

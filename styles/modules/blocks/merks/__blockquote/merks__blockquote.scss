@@ -1,0 +1,13 @@
+.merks__blockquote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .merks__blockquote {
+    margin: 0;
+    min-width: 100%
+  }
+}

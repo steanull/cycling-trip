@@ -1,0 +1,11 @@
+.header__item {
+  margin: 0 9px 0 25px;
+  @include font(500, 14px, 18px);
+  color: var(--light-background-color);
+
+  @include media(767px) {
+      margin: 18px 0;
+      font-size: 18px;
+      line-height: 18px;
+  }
+}

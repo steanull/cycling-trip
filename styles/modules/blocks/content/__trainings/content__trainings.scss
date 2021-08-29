@@ -1,0 +1,16 @@
+.content__trainings {
+  padding: 150px 120px 120px;
+
+  @include media(1279px) {
+    padding: 100px 120px 120px;
+  }
+
+  @include media(1279px) {
+    padding: 100px 120px 120px;
+  }
+
+  @include media(767px) {
+    padding: 40px 0 0;
+    margin: 40px auto;
+  }
+}

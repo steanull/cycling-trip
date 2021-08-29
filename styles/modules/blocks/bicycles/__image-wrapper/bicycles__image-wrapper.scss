@@ -1,0 +1,22 @@
+.bicycles__image-wrapper {
+  padding: 20px;
+  @include size(380px, 380px);
+  background-color: var(--light-background-color);
+  filter: drop-shadow(0px 20px 140px rgba(0, 0, 0, 0.06));
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  @include media(1279px) {
+    min-height: 250px;
+  }
+
+  @include media(767px) {
+    min-height: 284px;
+    filter: none;
+  }
+}

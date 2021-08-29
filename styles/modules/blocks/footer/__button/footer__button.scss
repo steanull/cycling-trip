@@ -1,0 +1,16 @@
+.footer__button {
+  background-image: url("../images/footer-button.svg");
+  border: 0;
+  @include size(44px, 30px);
+  max-width: 44px;
+  width: 100%;
+  min-height: 30px;
+  cursor: pointer;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @include media(767px) {
+    display: none;
+  }
+}

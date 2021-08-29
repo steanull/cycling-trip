@@ -1,0 +1,22 @@
+.trainings__description {
+  @include font(normal, 18px, 28px);
+  color: var(--color-fourth);
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
+  @include size(460px, 300px);
+  order: 3;
+
+  @include media(1279px) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  @include media(767px) {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 284px;
+    min-height: auto;
+    margin: 0 0 40px;
+  }
+}

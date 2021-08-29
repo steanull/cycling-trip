@@ -1,0 +1,34 @@
+@mixin fontTitle($fontWeight, $fontSize, $lineHeight, $letterSpacing) {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  letter-spacing: $letterSpacing;
+  color: var(--color-third);
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin font($fontWeight, $fontSize, $lineHeight) {
+  font-style: normal;
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin size($maxWidth, $minHeight) {
+  max-width: $maxWidth;
+  width: 100%;
+  min-height: $minHeight;
+}
+
+@mixin media($maxWidth) {
+  @media screen and (max-width: $maxWidth) {
+    @content;
+  }
+}
