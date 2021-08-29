@@ -1,0 +1,16 @@
+.page__merks {
+  padding: 120px 120px 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .page__merks {
+    padding: 120px 40px 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__merks {
+    padding: 20px 0 0;
+    margin: 40px auto;
+  }
+}

@@ -1,0 +1,22 @@
+.page__trainings {
+  padding: 150px 120px 120px;
+}
+
+@media screen and (max-width: 1279px) {
+  .page__trainings {
+    padding: 100px 120px 120px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__trainings {
+    padding: 150px 40px 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__trainings {
+    padding: 40px 0 0;
+    margin: 40px auto;
+  }
+}
