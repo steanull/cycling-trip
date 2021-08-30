@@ -30,6 +30,7 @@
 
   @include media(767px) {
     width: 100%;
+    max-width: 100%;
     min-height: 46px;
     font-size: 13px;
     line-height: 19px;

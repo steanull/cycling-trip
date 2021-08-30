@@ -1,0 +1,8 @@
+.page__footer {
+  margin: 0 auto;
+  padding: 0;
+
+  @include media(767px) {
+    padding: 0 18px;
+  }
+}

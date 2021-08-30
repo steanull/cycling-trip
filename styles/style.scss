@@ -93,6 +93,8 @@
 @import './modules/blocks/bicycles/__indicator/bicycles__indicator';
 @import './modules/blocks/bicycles/__indicator/_active/bicycles__indicator_active';
 @import './modules/blocks/bicycles/__link-value/bicycles__link-value';
+@import './modules/blocks/bicycles/__link-value/_theme-dark/bicycles__link-value_theme-dark';
+@import './modules/blocks/bicycles/__menu/_theme-dark/bicycles__menu_theme-dark';
 
 
 /* TRAININGS */
@@ -111,6 +113,7 @@
 @import './modules/blocks/trainings/__link/_theme-dark/trainings__link_theme-dark.scss';
 
 /* FOOTER */
+@import './modules/blocks/page/__footer/page__footer';
 @import './modules/blocks/footer/footer.scss';
 @import './modules/blocks/footer/_theme-dark/footer_theme-dark.scss';
 @import './modules/blocks/footer/__title/footer__title.scss';

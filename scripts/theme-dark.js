@@ -25,6 +25,8 @@ const headerCloseBtnDark = document.querySelector(".header__close-button");
 const headerMenuBtnDark = document.querySelector(".header__menu-button");
 const coverageTitle = document.querySelectorAll(".coverage__title");
 const coverageDescription = document.querySelectorAll(".coverage__description");
+const bicyclesLinkValue = document.querySelector(".bicycles__link-value");
+const bicyclesMenu = document.querySelector(".bicycles__menu");
 
 //Функция добавления или удаление класса темной темы в зависимости от состояния
 function applyTheme() {
@@ -71,6 +73,8 @@ function applyTheme() {
   coverageTitle.forEach((item) => {
     item.classList.toggle(`coverage__title_theme-dark`);
   });
+  bicyclesLinkValue.classList.toggle('bicycles__link-value_theme-dark');
+  bicyclesMenu.classList.toggle('bicycles__menu_theme-dark');
 }
 
 //Слушатели нажатия кнопок переключения темы
