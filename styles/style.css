@@ -1309,24 +1309,30 @@
 }
 
 .bicycles__link-value {
-  margin: 40px 0 0;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 14px;
-  color: var(--color-third);
-  padding: 12px 8px;
-  background-color: var(--light-background-color);
-  border: 1px solid #E3E3E3;
-  box-sizing: border-box;
-  border-radius: 2px;
-  max-width: 114px;
-  width: 100%;
-  background-image: url("../images/arrow-btn.svg");
-  background-repeat: no-repeat;
-  background-position: 90px;
-  cursor: pointer;
-  position: relative;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .bicycles__link-value {
+    display: block;
+    margin: 40px 0 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    color: var(--color-third);
+    padding: 12px 8px;
+    background-color: var(--light-background-color);
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-width: 114px;
+    width: 100%;
+    background-image: url("../images/arrow-btn.svg");
+    background-repeat: no-repeat;
+    background-position: 90px;
+    cursor: pointer;
+    position: relative;
+  }
 }
 
 .bicycles__link-value_theme-dark {
