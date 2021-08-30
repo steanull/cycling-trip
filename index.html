@@ -108,6 +108,7 @@
     </section>
     <section class="bicycles content__bicycles" id="bicycles">
       <h2 class="bicycles__title">Велосипеды</h2>
+      <div class="bicycles__link-value">Шоссе</div>
       <ul class="bicycles__menu">
         <li class="bicycles__menu-item">
           <button type="button" class="bicycles__link bicycles__link_active" data-tabs-path="highway">Шоссе</button>
@@ -244,12 +245,6 @@
   <footer class="footer">
     <section class="footer__wrapper">
       <h2 class="footer__title">Подпишитесь на рассылку —</h2>
-      <!--
-      <form name="footer-form" class="footer__form">
-        <input name="footer-email validate__input" type="text" class="footer__email" placeholder="Ваш e-mail" required>
-        <span class='footer__valid' data-for="number"></span>
-        <button class="footer__submit" type="submit">ок</button>
-      </form>-->
       <form name="footer-form" class="footer__form" novalidate>
       <input type="text" name="number" class="footer__email" placeholder="Ваш e-mail" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
       <span class='footer__valid' data-for="number"></span>
@@ -263,6 +258,7 @@
       </div>
     </section>
   </footer>
+  <script src="scripts/list.js"></script>
   <script src="scripts/form-validation.js"></script>
   <script src="scripts/theme-dark.js"></script>
   <script src="scripts/mobile-menu.js"></script>

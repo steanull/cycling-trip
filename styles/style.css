@@ -1063,6 +1063,18 @@
   opacity: 0.75;
   font-weight: 600;
 }
+@media screen and (max-width: 767px) {
+  .bicycles__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 14px;
+    color: var(--color-third);
+    opacity: 1;
+    padding: 12px 8px;
+    box-sizing: border-box;
+  }
+}
 
 .bicycle__link_theme-dark {
   color: var(--color-secondary);
@@ -1079,6 +1091,11 @@
 
 .bicycles__link_active {
   opacity: 0.6;
+}
+@media screen and (max-width: 767px) {
+  .bicycles__link_active {
+    opacity: 1;
+  }
 }
 
 .bicycles__menu {
@@ -1099,7 +1116,23 @@
 @media screen and (max-width: 767px) {
   .bicycles__menu {
     display: none;
+    justify-content: left;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    margin-top: 130px;
+    z-index: 999;
+    padding: 12px 8px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-width: 114px;
+    width: 100%;
+    position: absolute;
   }
+}
+
+.bicycles__menu_active {
+  display: grid;
 }
 
 .bicycles__desc {
@@ -1270,6 +1303,26 @@
 
 .bicycles__indicator_active {
   background-color: #151515;
+}
+
+.bicycles__link-value {
+  margin: 40px 0 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
+  color: var(--color-third);
+  padding: 12px 8px;
+  border: 1px solid #E3E3E3;
+  box-sizing: border-box;
+  border-radius: 2px;
+  max-width: 114px;
+  width: 100%;
+  background-image: url("../images/arrow-btn.svg");
+  background-repeat: no-repeat;
+  background-position: 90px;
+  cursor: pointer;
+  position: relative;
 }
 
 /* TRAININGS */
@@ -1545,10 +1598,13 @@
 }
 @media screen and (max-width: 767px) {
   .footer__wrapper {
-    max-width: 284px;
+    max-width: 300px;
+    width: 100%;
     font-size: 16px;
+    box-sizing: border-box;
     line-height: 22px;
-    padding: 60px 0 16px;
+    padding: 60px 18px 16px;
+    margin: 0;
   }
 }
 

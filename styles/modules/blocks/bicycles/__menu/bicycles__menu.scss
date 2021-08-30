@@ -14,5 +14,17 @@
 
   @include media(767px) {
     display: none;
+    justify-content: left;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    margin-top: 130px;
+    z-index: 999;
+    padding: 12px 8px;
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-width: 114px;
+    width: 100%;
+    position: absolute;
   }
 }

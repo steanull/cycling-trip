@@ -14,4 +14,11 @@
     opacity: 0.75;
     font-weight: 600;
   }
+  @include media(767px) {
+    @include font(600, 11px, 14px);
+    color: var(--color-third);
+    opacity: 1;
+    padding: 12px 8px;
+    box-sizing: border-box;
+  }
 }
