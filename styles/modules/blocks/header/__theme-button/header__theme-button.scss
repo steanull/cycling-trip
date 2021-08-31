@@ -1,0 +1,6 @@
+.header__theme-button {
+  background-image: url("../images/footer-button.svg");
+  border: 0;
+  @include size(44px, 24px);
+  cursor: pointer;
+}

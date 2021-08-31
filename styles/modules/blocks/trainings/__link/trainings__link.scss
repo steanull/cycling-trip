@@ -1,0 +1,20 @@
+.trainings__link {
+  @include font(600, 18px, 28px);
+  text-decoration: none;
+  color: rgba(21, 21, 21, 1);
+  transition: .4s;
+  &:hover {
+    color: rgba(21, 21, 21, .75);
+  }
+
+  @include media(1279px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  @include media(767px) {
+    font-size: 14px;
+    line-height: 20px
+  }
+}
+

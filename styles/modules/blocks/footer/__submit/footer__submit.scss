@@ -1,0 +1,13 @@
+.footer__submit {
+  border: 0;
+  position: absolute;
+  right: 22px;
+  top: 10px;
+  display: none;
+  &:hover {
+    color: #24B47E;
+  }
+  @include font(500, 13px, 28px);
+  cursor: pointer;
+  color: var(--color-third);
+}

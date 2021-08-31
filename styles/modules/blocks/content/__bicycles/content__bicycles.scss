@@ -1,0 +1,12 @@
+.content__bicycles {
+  padding: 60px 120px;
+
+  @include media(1023px) {
+    padding: 60px 40px;
+  }
+
+  @include media(767px) {
+    padding: 40px 0 0;
+    margin: 40px auto;
+  }
+}

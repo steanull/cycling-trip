@@ -1,0 +1,10 @@
+.slider__wrapper {
+  position: relative;
+}
+
+  @media screen and (max-width: 767px) {
+    .slider__wrapper {
+      margin-bottom: 50px;
+      background-color: transparent;
+    }
+  }

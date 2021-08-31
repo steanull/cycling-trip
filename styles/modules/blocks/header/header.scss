@@ -1,0 +1,9 @@
+.header {
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+
+  @include media(767px) {
+      max-width: 284px;
+  }
+}

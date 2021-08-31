@@ -1,0 +1,22 @@
+.header__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 1440px - 240px;
+  width: 100%;
+
+  @include media(1279px) {
+    max-width: 750px;
+  }
+
+  @include media(767px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 144px;
+  }
+}

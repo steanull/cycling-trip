@@ -1,0 +1,31 @@
+.bicycles__menu {
+  list-style: none;
+  margin: -38px 0 0;
+  padding: 0;
+  display: grid;
+  justify-content: right;
+  grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content);
+  gap: 0 45px;
+
+  @include media(1279px) {
+    margin: -40px 0 0;
+  }
+
+  @include media(767px) {
+    display: none;
+    justify-content: left;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    margin-top: 130px;
+    z-index: 999;
+    padding: 12px 8px;
+    background-color: var(--light-background-color);
+    border: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    border-radius: 2px;
+    max-width: 114px;
+    width: 100%;
+    position: absolute;
+  }
+}

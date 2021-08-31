@@ -1,0 +1,7 @@
+.header__button-wrapper_theme-dark {
+  background-image: url(../images/footer-button-background-dark.svg);
+
+  @include media(767px) {
+    background-image: url(../images/change-color.svg);
+  }
+}

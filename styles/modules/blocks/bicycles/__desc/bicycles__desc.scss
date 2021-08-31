@@ -1,0 +1,18 @@
+.bicycles__desc {
+  @include font(600, 18px, 22px);
+  color: var(--color-third);
+  margin: 22px 0 0;
+  padding: 0 0 0 6px;
+
+  @include media(1279px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  @include media(767px) {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 0 16px;
+  }
+}

@@ -1,0 +1,7 @@
+.bicycles__desc_theme-dark {
+  color: var(--dark-color-main);
+
+  @include media(767px) {
+    color: var(--color-main);
+  }
+}

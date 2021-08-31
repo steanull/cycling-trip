@@ -1,0 +1,13 @@
+.bicycles__item {
+  margin: 0;
+  cursor: pointer;
+
+  @include media(767px) {
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    filter: none;
+  }
+}

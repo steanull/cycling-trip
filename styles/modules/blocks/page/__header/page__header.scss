@@ -1,0 +1,12 @@
+.page__header {
+  padding: 0 0 0 120px;
+  margin: 0 auto;
+
+  @include media(1023px) {
+    padding: 0 0 0 40px;
+  }
+
+  @include media(767px) {
+    padding: 0 0 40px;
+  }
+}

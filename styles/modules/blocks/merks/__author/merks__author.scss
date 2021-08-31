@@ -1,0 +1,15 @@
+.merks__author {
+  @include fontTitle(500, 20px, 32px, -0.5px);
+  margin: auto 0 0;
+  padding:0;
+
+  @include media(1279px) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  @include media(767px) {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

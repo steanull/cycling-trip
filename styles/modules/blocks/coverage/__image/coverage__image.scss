@@ -1,0 +1,18 @@
+.coverage__image {
+  max-width: 650px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+
+  @include media(1279px) {
+    height: 350px;
+  }
+
+  @include media(767px) {
+    height: 175px;
+    &:last-of-type {
+      display: none;
+    }
+  }
+}

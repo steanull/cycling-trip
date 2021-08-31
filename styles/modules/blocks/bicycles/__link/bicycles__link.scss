@@ -1,0 +1,24 @@
+.bicycles__link {
+  border: 0;
+  text-decoration: none;
+  background-color: transparent;
+  @include font(normal, 18px, 28px);
+  color: var(--color-fourth);
+  opacity: 0.7;
+  transition: .4s;
+  cursor: pointer;
+  margin:0;
+  padding:0;
+  &:hover {
+    color: var(--color-third);
+    opacity: 0.75;
+    font-weight: 600;
+  }
+  @include media(767px) {
+    @include font(600, 11px, 14px);
+    color: var(--color-third);
+    opacity: 1;
+    padding: 12px 8px;
+    box-sizing: border-box;
+  }
+}

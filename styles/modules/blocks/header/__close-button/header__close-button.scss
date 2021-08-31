@@ -1,0 +1,18 @@
+.header__close-button {
+  background-image: url("../images/menu-close-button.svg");
+  display: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  @include size(28px, 30px);
+  cursor: pointer;
+  border: 0;
+  top: 19px;
+  right: 14px;
+  position: fixed;
+  background-color: transparent;
+
+  @include media(767px) {
+    display: block;
+  }
+}

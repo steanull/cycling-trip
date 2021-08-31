@@ -1,0 +1,20 @@
+.coverage__description {
+  @include font(normal, 18px, 28px);
+  color: rgba(34, 34, 34, .75);
+  margin: 40px 0 80px;
+  max-width: 460px;
+
+  @include media(1279px) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  @include media(767px) {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 100%;
+    order: 3;
+    margin: 40px 0 0;
+    grid-column: 1 / 3;
+  }
+}

@@ -1,0 +1,23 @@
+.header__image {
+  margin-left: -200px;
+  @include size(440px, auto);
+  padding: 20px 50px;
+  background: var(--light-background-color);
+  filter: drop-shadow(-20px 60px 220px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 466px;
+  margin-bottom: 80px;
+
+  @include media(1279px) {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  @include media(1023px) {
+    max-width: 310px;
+    min-height: 211px;
+    margin-left: -100px;
+  }
+}

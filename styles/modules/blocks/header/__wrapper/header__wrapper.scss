@@ -1,0 +1,19 @@
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  min-height: 836px;
+  padding: 94px 0 0;
+
+  @include media(1279px) {
+    min-height: 686px;
+  }
+
+  @include media(767px) {
+    min-height: auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+    padding: 114px 0 0;
+  }
+}

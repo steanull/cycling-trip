@@ -1,0 +1,15 @@
+.header__mobile-background {
+  display: none;
+
+  @include media(767px) {
+    display: flex;
+    justify-content: flex-end;
+    @include size(254px, 348px);
+    position: relative;
+    background-image: url("../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 40px 0 0 50px;
+  }
+}

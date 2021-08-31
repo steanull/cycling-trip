@@ -1,0 +1,6 @@
+.bicycles__link_active {
+  opacity: 0.6;
+  @include media (767px) {
+    opacity: 1;
+  }
+}
